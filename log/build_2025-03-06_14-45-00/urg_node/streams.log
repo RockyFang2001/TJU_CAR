@@ -1,0 +1,14 @@
+[0.503s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.624s] [ 22%] Built target urg_node_driver
+[0.625s] [ 55%] Built target urg_node
+[0.649s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.686s] [ 77%] Built target getID
+[0.702s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[0.891s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kvecotr: No such file or directory
+[0.892s]     6 | #include [01;31m[K<vecotr>[m[K
+[0.892s]       |          [01;31m[K^~~~~~~~[m[K
+[0.892s] compilation terminated.
+[0.896s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[0.897s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[0.897s] make: *** [Makefile:141: all] Error 2
+[0.902s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

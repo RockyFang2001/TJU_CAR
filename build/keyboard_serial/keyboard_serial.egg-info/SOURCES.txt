@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/keyboard_serial/keyboard_serial.egg-info/PKG-INFO
+../../build/keyboard_serial/keyboard_serial.egg-info/SOURCES.txt
+../../build/keyboard_serial/keyboard_serial.egg-info/dependency_links.txt
+../../build/keyboard_serial/keyboard_serial.egg-info/entry_points.txt
+../../build/keyboard_serial/keyboard_serial.egg-info/requires.txt
+../../build/keyboard_serial/keyboard_serial.egg-info/top_level.txt
+../../build/keyboard_serial/keyboard_serial.egg-info/zip-safe
+keyboard_serial/__init__.py
+keyboard_serial/keyboard_serial_node.py
+resource/keyboard_serial
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

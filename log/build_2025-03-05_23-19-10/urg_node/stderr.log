@@ -1,0 +1,10 @@
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:72:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   72 |       float [01;35m[Kangle_max[m[K = scan_msg.angle_max;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:74:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   74 |       float [01;35m[Krange_min[m[K = scan_msg.range_min;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:75:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   75 |       float [01;35m[Krange_max[m[K = scan_msg.range_max;
+      |             [01;35m[K^~~~~~~~~[m[K

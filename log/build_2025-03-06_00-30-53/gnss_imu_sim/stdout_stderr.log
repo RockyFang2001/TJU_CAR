@@ -1,0 +1,20 @@
+[100%] Built target imu_driver_exe
+-- Install configuration: ""
+-- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/lib/gnss_imu_sim/imu_driver_exe
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/launch
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/launch/imu_driver_launch.py
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/package_run_dependencies/gnss_imu_sim
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/parent_prefix_path/gnss_imu_sim
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/ament_prefix_path.sh
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/ament_prefix_path.dsv
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/path.sh
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/path.dsv
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.bash
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.sh
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.zsh
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.dsv
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.dsv
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/packages/gnss_imu_sim
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/cmake/gnss_imu_simConfig.cmake
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/cmake/gnss_imu_simConfig-version.cmake
+-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.xml

@@ -1,0 +1,2 @@
+Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/autodrive/laser_ws/src/urg_node-ros2-devel -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/urg_node
+Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/autodrive/laser_ws/src/urg_node-ros2-devel -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/urg_node

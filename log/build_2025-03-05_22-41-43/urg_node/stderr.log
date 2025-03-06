@@ -1,0 +1,13 @@
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:48:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser_geometry[m[K’ was not declared in this scope
+   48 |     std::shared_ptr<[01;31m[Klaser_geometry[m[K::LaserProjection> projector_;
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:48:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |     std::shared_ptr<laser_geometry::LaserProjection[01;31m[K>[m[K projector_;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:27:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KprojectLaser[m[K’ in ‘[01m[K((PointCloudNode*)this)->PointCloudNode::projector_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   27 |         projector_.[01;31m[KprojectLaser[m[K(*scan_msg, cloud_msg);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

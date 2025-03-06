@@ -1,0 +1,37 @@
+[0.025s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.087s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.524s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.574s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.038s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.306s] -- Found laser_proc: 1.0.2 (/opt/ros/foxy/share/laser_proc/cmake)
+[1.537s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.637s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.653s] -- Found urg_c: 1.0.4001 (/opt/ros/foxy/share/urg_c/cmake)
+[1.656s] -- Found urg_node_msgs: 1.0.1 (/opt/ros/foxy/share/urg_node_msgs/cmake)
+[1.720s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.749s] CMake Error at CMakeLists.txt:31 (find_package):
+[1.750s]   By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+[1.750s]   asked CMake to find a package configuration file provided by "Eigen", but
+[1.750s]   CMake did not find one.
+[1.750s] 
+[1.750s]   Could not find a package configuration file provided by "Eigen" with any of
+[1.751s]   the following names:
+[1.751s] 
+[1.751s]     EigenConfig.cmake
+[1.751s]     eigen-config.cmake
+[1.751s] 
+[1.752s]   Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+[1.752s]   "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+[1.752s]   provides a separate development package or SDK, be sure it has been
+[1.752s]   installed.
+[1.752s] 
+[1.752s] 
+[1.754s] -- Configuring incomplete, errors occurred!
+[1.754s] See also "/home/autodrive/laser_ws/build/urg_node/CMakeFiles/CMakeOutput.log".
+[1.754s] See also "/home/autodrive/laser_ws/build/urg_node/CMakeFiles/CMakeError.log".
+[1.774s] make: *** [Makefile:428: cmake_check_build_system] Error 1
+[1.781s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

@@ -1,0 +1,20 @@
+[0.023s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.150s] [ 22%] Built target urg_node_driver
+[0.151s] [ 55%] Built target urg_node
+[0.176s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.213s] [ 77%] Built target getID
+[0.233s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[3.052s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser_geometry[m[K’ was not declared in this scope
+[3.053s]    37 |     std::shared_ptr<[01;31m[Klaser_geometry[m[K::LaserProjection> projector_;
+[3.053s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.053s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:37:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.053s]    37 |     std::shared_ptr<laser_geometry::LaserProjection[01;31m[K>[m[K projector_;
+[3.053s]       |                                                    [01;31m[K^[m[K
+[3.084s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.084s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:27:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.085s]    27 |         projector_[01;31m[K->[m[KprojectLaser(*scan_msg, cloud_msg);
+[3.085s]       |                   [01;31m[K^~[m[K
+[6.741s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[6.741s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[6.742s] make: *** [Makefile:141: all] Error 2
+[6.747s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

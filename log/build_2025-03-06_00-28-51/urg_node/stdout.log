@@ -1,0 +1,7 @@
+[ 22%] Built target urg_node_driver
+[ 55%] Built target urg_node
+[35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[ 77%] Built target getID
+[ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pointcloud_2d_to_3d[0m
+[100%] Built target pointcloud_2d_to_3d

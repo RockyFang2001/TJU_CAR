@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (gnss_imu_sim) JobQueued: {'identifier': 'gnss_imu_sim', 'dependencies': OrderedDict()}
+[0.000772] (urg_node) JobQueued: {'identifier': 'urg_node', 'dependencies': OrderedDict()}
+[0.001164] (gnss_imu_sim) JobStarted: {'identifier': 'gnss_imu_sim'}
+[0.016672] (urg_node) JobStarted: {'identifier': 'urg_node'}
+[0.031228] (gnss_imu_sim) JobProgress: {'identifier': 'gnss_imu_sim', 'progress': 'cmake'}
+[0.032898] (gnss_imu_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/autodrive/laser_ws/src/imu', '-DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim'], 'cwd': '/home/autodrive/laser_ws/build/gnss_imu_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1743'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/autodrive'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1305'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('JOURNAL_STREAM', '7:47844'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'autodrive'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/autodrive-desktop:@/tmp/.ICE-unix/1778,unix/autodrive-desktop:/tmp/.ICE-unix/1778'), ('INVOCATION_ID', '3a5b3e53dcb64a109d8b6af19ac62194'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58331319_0e96_4224_bbc4_a016bddc7e3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/autodrive/laser_ws/build/gnss_imu_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.046039] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'cmake'}
+[0.047589] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'build'}
+[0.049387] (urg_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive/laser_ws/build/urg_node', '--', '-j6', '-l6'], 'cwd': '/home/autodrive/laser_ws/build/urg_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1743'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/autodrive'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1305'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('JOURNAL_STREAM', '7:47844'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'autodrive'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/autodrive-desktop:@/tmp/.ICE-unix/1778,unix/autodrive-desktop:/tmp/.ICE-unix/1778'), ('INVOCATION_ID', '3a5b3e53dcb64a109d8b6af19ac62194'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58331319_0e96_4224_bbc4_a016bddc7e3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/autodrive/laser_ws/build/urg_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.067442] (gnss_imu_sim) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099492] (-) TimerEvent: {}
+[0.109939] (gnss_imu_sim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.170896] (urg_node) StdoutLine: {'line': b'[ 22%] Built target urg_node_driver\n'}
+[0.177954] (urg_node) StdoutLine: {'line': b'[ 55%] Built target urg_node\n'}
+[0.199643] (-) TimerEvent: {}
+[0.240730] (urg_node) StdoutLine: {'line': b'[ 77%] Built target pointcloud_2d_to_3d\n'}
+[0.242510] (urg_node) StdoutLine: {'line': b'[100%] Built target getID\n'}
+[0.267964] (urg_node) CommandEnded: {'returncode': 0}
+[0.269992] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'install'}
+[0.293175] (urg_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autodrive/laser_ws/build/urg_node'], 'cwd': '/home/autodrive/laser_ws/build/urg_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1743'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/autodrive'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1305'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('JOURNAL_STREAM', '7:47844'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'autodrive'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/autodrive-desktop:@/tmp/.ICE-unix/1778,unix/autodrive-desktop:/tmp/.ICE-unix/1778'), ('INVOCATION_ID', '3a5b3e53dcb64a109d8b6af19ac62194'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58331319_0e96_4224_bbc4_a016bddc7e3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/autodrive/laser_ws/build/urg_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.300353] (-) TimerEvent: {}
+[0.314916] (urg_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.315920] (urg_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.316758] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/urg_node_driver\n'}
+[0.317490] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/pointcloud_2d_to_3d\n'}
+[0.318248] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/liburg_node.so\n'}
+[0.318861] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/getID\n'}
+[0.319783] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/include/urg_node/urg_c_wrapper.hpp\n'}
+[0.320075] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/include/urg_node/urg_node.hpp\n'}
+[0.320568] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/set_urg_ip.py\n'}
+[0.321453] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf\n'}
+[0.321772] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_lidar.launch\n'}
+[0.322086] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml\n'}
+[0.322397] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_launch.py\n'}
+[0.322746] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_serial.yaml\n'}
+[0.323587] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/meshes/hokuyo_ust10.stl\n'}
+[0.324261] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/urdf/hokuyo_ust10.urdf.xacro\n'}
+[0.324587] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/library_path.sh\n'}
+[0.324994] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/library_path.dsv\n'}
+[0.325507] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node\n'}
+[0.326006] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node\n'}
+[0.326494] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.sh\n'}
+[0.327004] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv\n'}
+[0.327459] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/path.sh\n'}
+[0.328087] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/path.dsv\n'}
+[0.328506] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.bash\n'}
+[0.328890] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.sh\n'}
+[0.329327] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.zsh\n'}
+[0.329777] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.dsv\n'}
+[0.330144] (urg_node) StdoutLine: {'line': b'-- Symlinking: /home/autodrive/laser_ws/install/urg_node/share/urg_node/package.dsv\n'}
+[0.348781] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/packages/urg_node\n'}
+[0.349346] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node\n'}
+[0.349739] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.350208] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.350755] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.351197] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake\n'}
+[0.351510] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake\n'}
+[0.351962] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/package.xml\n'}
+[0.356296] (urg_node) CommandEnded: {'returncode': 0}
+[0.400500] (-) TimerEvent: {}
+[0.417484] (urg_node) JobEnded: {'identifier': 'urg_node', 'rc': 0}
+[0.492726] (gnss_imu_sim) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.500596] (-) TimerEvent: {}
+[0.553052] (gnss_imu_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.558967] (gnss_imu_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600757] (-) TimerEvent: {}
+[0.701375] (-) TimerEvent: {}
+[0.784049] (gnss_imu_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801454] (-) TimerEvent: {}
+[0.873276] (gnss_imu_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.875621] (gnss_imu_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901549] (-) TimerEvent: {}
+[1.002054] (-) TimerEvent: {}
+[1.102662] (-) TimerEvent: {}
+[1.129926] (gnss_imu_sim) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.202789] (-) TimerEvent: {}
+[1.211815] (gnss_imu_sim) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.302941] (-) TimerEvent: {}
+[1.339787] (gnss_imu_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.403091] (-) TimerEvent: {}
+[1.467325] (gnss_imu_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.468486] (gnss_imu_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.468958] (gnss_imu_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive/laser_ws/src/imu/include>\n'}
+[1.469297] (gnss_imu_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.469828] (gnss_imu_sim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.470189] (gnss_imu_sim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.470677] (gnss_imu_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.471718] (gnss_imu_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.472062] (gnss_imu_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.472394] (gnss_imu_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.478250] (gnss_imu_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.494619] (gnss_imu_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.502429] (gnss_imu_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/autodrive/laser_ws/build/gnss_imu_sim\n'}
+[1.503162] (-) TimerEvent: {}
+[1.521177] (gnss_imu_sim) CommandEnded: {'returncode': 0}
+[1.522522] (gnss_imu_sim) JobProgress: {'identifier': 'gnss_imu_sim', 'progress': 'build'}
+[1.523389] (gnss_imu_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive/laser_ws/build/gnss_imu_sim', '--', '-j6', '-l6'], 'cwd': '/home/autodrive/laser_ws/build/gnss_imu_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1743'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/autodrive'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1305'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('JOURNAL_STREAM', '7:47844'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'autodrive'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/autodrive-desktop:@/tmp/.ICE-unix/1778,unix/autodrive-desktop:/tmp/.ICE-unix/1778'), ('INVOCATION_ID', '3a5b3e53dcb64a109d8b6af19ac62194'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58331319_0e96_4224_bbc4_a016bddc7e3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/autodrive/laser_ws/build/gnss_imu_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.603418] (-) TimerEvent: {}
+[1.605830] (gnss_imu_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_driver_exe\x1b[0m\n'}
+[1.682928] (gnss_imu_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_driver_exe.dir/imu.cpp.o\x1b[0m\n'}
+[1.703557] (-) TimerEvent: {}
+[1.804234] (-) TimerEvent: {}
+[1.904934] (-) TimerEvent: {}
+[2.005639] (-) TimerEvent: {}
+[2.106376] (-) TimerEvent: {}
+[2.207109] (-) TimerEvent: {}
+[2.307821] (-) TimerEvent: {}
+[2.408531] (-) TimerEvent: {}
+[2.509251] (-) TimerEvent: {}
+[2.610018] (-) TimerEvent: {}
+[2.710869] (-) TimerEvent: {}
+[2.811689] (-) TimerEvent: {}
+[2.912509] (-) TimerEvent: {}
+[3.013322] (-) TimerEvent: {}
+[3.114113] (-) TimerEvent: {}
+[3.214925] (-) TimerEvent: {}
+[3.315707] (-) TimerEvent: {}
+[3.416493] (-) TimerEvent: {}
+[3.517291] (-) TimerEvent: {}
+[3.618086] (-) TimerEvent: {}
+[3.719097] (-) TimerEvent: {}
+[3.819893] (-) TimerEvent: {}
+[3.920714] (-) TimerEvent: {}
+[4.021472] (-) TimerEvent: {}
+[4.122124] (-) TimerEvent: {}
+[4.222849] (-) TimerEvent: {}
+[4.323633] (-) TimerEvent: {}
+[4.424632] (-) TimerEvent: {}
+[4.525436] (-) TimerEvent: {}
+[4.626203] (-) TimerEvent: {}
+[4.726894] (-) TimerEvent: {}
+[4.827907] (-) TimerEvent: {}
+[4.928734] (-) TimerEvent: {}
+[5.029568] (-) TimerEvent: {}
+[5.130405] (-) TimerEvent: {}
+[5.231252] (-) TimerEvent: {}
+[5.332081] (-) TimerEvent: {}
+[5.432910] (-) TimerEvent: {}
+[5.533741] (-) TimerEvent: {}
+[5.634575] (-) TimerEvent: {}
+[5.735424] (-) TimerEvent: {}
+[5.836472] (-) TimerEvent: {}
+[5.937305] (-) TimerEvent: {}
+[6.038123] (-) TimerEvent: {}
+[6.138943] (-) TimerEvent: {}
+[6.239706] (-) TimerEvent: {}
+[6.340488] (-) TimerEvent: {}
+[6.441257] (-) TimerEvent: {}
+[6.542013] (-) TimerEvent: {}
+[6.642821] (-) TimerEvent: {}
+[6.743655] (-) TimerEvent: {}
+[6.844496] (-) TimerEvent: {}
+[6.945299] (-) TimerEvent: {}
+[7.046065] (-) TimerEvent: {}
+[7.146849] (-) TimerEvent: {}
+[7.247633] (-) TimerEvent: {}
+[7.348453] (-) TimerEvent: {}
+[7.449257] (-) TimerEvent: {}
+[7.550034] (-) TimerEvent: {}
+[7.650848] (-) TimerEvent: {}
+[7.751715] (-) TimerEvent: {}
+[7.852597] (-) TimerEvent: {}
+[7.953432] (-) TimerEvent: {}
+[8.054256] (-) TimerEvent: {}
+[8.155089] (-) TimerEvent: {}
+[8.255875] (-) TimerEvent: {}
+[8.356661] (-) TimerEvent: {}
+[8.457474] (-) TimerEvent: {}
+[8.558257] (-) TimerEvent: {}
+[8.659074] (-) TimerEvent: {}
+[8.759856] (-) TimerEvent: {}
+[8.860666] (-) TimerEvent: {}
+[8.961441] (-) TimerEvent: {}
+[9.062228] (-) TimerEvent: {}
+[9.163268] (-) TimerEvent: {}
+[9.233739] (gnss_imu_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_driver_exe\x1b[0m\n'}
+[9.263408] (-) TimerEvent: {}
+[9.364054] (-) TimerEvent: {}
+[9.464871] (-) TimerEvent: {}
+[9.565759] (-) TimerEvent: {}
+[9.583424] (gnss_imu_sim) StdoutLine: {'line': b'[100%] Built target imu_driver_exe\n'}
+[9.608622] (gnss_imu_sim) CommandEnded: {'returncode': 0}
+[9.611516] (gnss_imu_sim) JobProgress: {'identifier': 'gnss_imu_sim', 'progress': 'install'}
+[9.612386] (gnss_imu_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autodrive/laser_ws/build/gnss_imu_sim'], 'cwd': '/home/autodrive/laser_ws/build/gnss_imu_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1743'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/autodrive'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1305'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('JOURNAL_STREAM', '7:47844'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'autodrive'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/autodrive-desktop:@/tmp/.ICE-unix/1778,unix/autodrive-desktop:/tmp/.ICE-unix/1778'), ('INVOCATION_ID', '3a5b3e53dcb64a109d8b6af19ac62194'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58331319_0e96_4224_bbc4_a016bddc7e3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/autodrive/laser_ws/build/gnss_imu_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=edd69edd97af19982cda0af367c87a06'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.632751] (gnss_imu_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.633350] (gnss_imu_sim) StdoutLine: {'line': b'-- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/lib/gnss_imu_sim/imu_driver_exe\n'}
+[9.635494] (gnss_imu_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/autodrive/laser_ws/install/gnss_imu_sim/lib/gnss_imu_sim/imu_driver_exe" to ""\n'}
+[9.635996] (gnss_imu_sim) StderrLine: {'line': b'CMake Error at cmake_install.cmake:61 (file):\n'}
+[9.636426] (gnss_imu_sim) StderrLine: {'line': b'  file INSTALL cannot find "/home/autodrive/laser_ws/src/imu/launch": No such\n'}
+[9.636735] (gnss_imu_sim) StderrLine: {'line': b'  file or directory.\n'}
+[9.637027] (gnss_imu_sim) StderrLine: {'line': b'\n'}
+[9.637301] (gnss_imu_sim) StderrLine: {'line': b'\n'}
+[9.638900] (gnss_imu_sim) CommandEnded: {'returncode': 1}
+[9.659560] (gnss_imu_sim) JobEnded: {'identifier': 'gnss_imu_sim', 'rc': 1}
+[9.665856] (-) TimerEvent: {}
+[9.671285] (-) EventReactorShutdown: {}

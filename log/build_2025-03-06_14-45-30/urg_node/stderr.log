@@ -1,0 +1,10 @@
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&)[m[K’:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:99:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   99 |           float [01;35m[Kz[m[K = 0.0;  // 假设激光雷达在水平平面上
+      |                 [01;35m[K^[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:73:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   73 |       float [01;35m[Kangle_max[m[K = scan_msg.angle_max;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:77:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpoint_index[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   77 |       size_t [01;35m[Kpoint_index[m[K = 0;
+      |              [01;35m[K^~~~~~~~~~~[m[K

@@ -1,0 +1,15 @@
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:26:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPointCloudNode::laserScanToPointCloud2(std::__shared_ptr_access<sensor_msgs::msg::LaserScan_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type&, sensor_msgs::msg::PointCloud2&)[m[K’
+   26 |         laserScanToPointCloud2(*scan_msg, cloud_msg[01;31m[K)[m[K;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&)[m[K’
+   38 |   void [01;36m[KlaserScanToPointCloud2[m[K(const sensor_msgs::msg::LaserScan& scan_msg)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:38:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&)[m[K’:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:70:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   70 |       float [01;35m[Kangle_max[m[K = scan_msg.angle_max;
+      |             [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

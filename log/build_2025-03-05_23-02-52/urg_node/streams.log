@@ -1,0 +1,20 @@
+[0.025s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.157s] [ 22%] Built target urg_node_driver
+[0.158s] [ 55%] Built target urg_node
+[0.181s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.218s] [ 77%] Built target getID
+[0.239s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[3.139s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[3.139s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:105:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PointCloud2 = struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kframe[m[K’
+[3.139s]   105 |       cloud_msg.[01;31m[Kframe[m[K=scan_msg.frame;
+[3.140s]       |                 [01;31m[K^~~~~[m[K
+[3.140s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:105:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst struct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kframe[m[K’
+[3.140s]   105 |       cloud_msg.frame=scan_msg.[01;31m[Kframe[m[K;
+[3.140s]       |                                [01;31m[K^~~~~[m[K
+[3.142s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:134:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.142s]   134 |       float [01;35m[Kangle_max[m[K = scan_msg.angle_max;
+[3.142s]       |             [01;35m[K^~~~~~~~~[m[K
+[6.874s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[6.874s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[6.875s] make: *** [Makefile:141: all] Error 2
+[6.880s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

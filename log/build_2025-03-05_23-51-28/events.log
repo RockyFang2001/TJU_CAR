@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.001322] (urg_node) JobQueued: {'identifier': 'urg_node', 'dependencies': OrderedDict()}
+[0.001855] (urg_node) JobStarted: {'identifier': 'urg_node'}
+[0.021816] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'cmake'}
+[0.023329] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'build'}
+[0.024659] (urg_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive/laser_ws/build/urg_node', '--', '-j6', '-l6'], 'cwd': '/home/autodrive/laser_ws/build/urg_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('SSH_CLIENT', '192.168.1.101 8361 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/autodrive'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f9290408-5502-4c65-82e2-61a5f599e79e.sock'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/.noConfigDebugAdapterEndpoints/endpoint-99365620f40cf858.txt'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0b00f2a0e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/autodrive/laser_ws/build/urg_node'), ('SSH_CONNECTION', '192.168.1.101 8361 192.168.1.103 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099426] (-) TimerEvent: {}
+[0.160849] (urg_node) StdoutLine: {'line': b'[ 22%] Built target urg_node_driver\n'}
+[0.163217] (urg_node) StdoutLine: {'line': b'[ 55%] Built target urg_node\n'}
+[0.190051] (urg_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_2d_to_3d\x1b[0m\n'}
+[0.199582] (-) TimerEvent: {}
+[0.229896] (urg_node) StdoutLine: {'line': b'[ 77%] Built target getID\n'}
+[0.248559] (urg_node) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o\x1b[0m\n'}
+[0.299781] (-) TimerEvent: {}
+[0.400463] (-) TimerEvent: {}
+[0.501152] (-) TimerEvent: {}
+[0.601840] (-) TimerEvent: {}
+[0.702545] (-) TimerEvent: {}
+[0.803232] (-) TimerEvent: {}
+[0.903971] (-) TimerEvent: {}
+[1.004781] (-) TimerEvent: {}
+[1.105623] (-) TimerEvent: {}
+[1.206361] (-) TimerEvent: {}
+[1.307192] (-) TimerEvent: {}
+[1.408009] (-) TimerEvent: {}
+[1.508749] (-) TimerEvent: {}
+[1.609417] (-) TimerEvent: {}
+[1.710110] (-) TimerEvent: {}
+[1.810819] (-) TimerEvent: {}
+[1.911535] (-) TimerEvent: {}
+[2.012258] (-) TimerEvent: {}
+[2.113014] (-) TimerEvent: {}
+[2.213728] (-) TimerEvent: {}
+[2.314420] (-) TimerEvent: {}
+[2.415150] (-) TimerEvent: {}
+[2.515977] (-) TimerEvent: {}
+[2.616750] (-) TimerEvent: {}
+[2.717442] (-) TimerEvent: {}
+[2.818150] (-) TimerEvent: {}
+[2.918967] (-) TimerEvent: {}
+[3.019658] (-) TimerEvent: {}
+[3.120544] (-) TimerEvent: {}
+[3.221425] (-) TimerEvent: {}
+[3.302268] (urg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.302858] (urg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:63:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.303058] (urg_node) StderrLine: {'line': b'   63 |       float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = scan_msg.angle_max;\n'}
+[3.303223] (urg_node) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.321596] (-) TimerEvent: {}
+[3.422291] (-) TimerEvent: {}
+[3.522949] (-) TimerEvent: {}
+[3.623604] (-) TimerEvent: {}
+[3.724246] (-) TimerEvent: {}
+[3.824907] (-) TimerEvent: {}
+[3.925555] (-) TimerEvent: {}
+[4.026210] (-) TimerEvent: {}
+[4.126881] (-) TimerEvent: {}
+[4.227584] (-) TimerEvent: {}
+[4.328317] (-) TimerEvent: {}
+[4.429056] (-) TimerEvent: {}
+[4.530016] (-) TimerEvent: {}
+[4.630729] (-) TimerEvent: {}
+[4.731480] (-) TimerEvent: {}
+[4.832200] (-) TimerEvent: {}
+[4.932940] (-) TimerEvent: {}
+[5.033640] (-) TimerEvent: {}
+[5.134329] (-) TimerEvent: {}
+[5.235012] (-) TimerEvent: {}
+[5.335692] (-) TimerEvent: {}
+[5.436383] (-) TimerEvent: {}
+[5.537063] (-) TimerEvent: {}
+[5.637713] (-) TimerEvent: {}
+[5.738373] (-) TimerEvent: {}
+[5.839125] (-) TimerEvent: {}
+[5.939824] (-) TimerEvent: {}
+[6.040506] (-) TimerEvent: {}
+[6.141191] (-) TimerEvent: {}
+[6.241889] (-) TimerEvent: {}
+[6.342598] (-) TimerEvent: {}
+[6.443276] (-) TimerEvent: {}
+[6.543991] (-) TimerEvent: {}
+[6.644734] (-) TimerEvent: {}
+[6.745435] (-) TimerEvent: {}
+[6.846089] (-) TimerEvent: {}
+[6.946760] (-) TimerEvent: {}
+[7.047433] (-) TimerEvent: {}
+[7.148090] (-) TimerEvent: {}
+[7.248752] (-) TimerEvent: {}
+[7.349397] (-) TimerEvent: {}
+[7.450026] (-) TimerEvent: {}
+[7.550674] (-) TimerEvent: {}
+[7.651426] (-) TimerEvent: {}
+[7.752178] (-) TimerEvent: {}
+[7.852937] (-) TimerEvent: {}
+[7.953722] (-) TimerEvent: {}
+[8.054498] (-) TimerEvent: {}
+[8.155242] (-) TimerEvent: {}
+[8.255993] (-) TimerEvent: {}
+[8.356786] (-) TimerEvent: {}
+[8.457610] (-) TimerEvent: {}
+[8.558298] (-) TimerEvent: {}
+[8.658971] (-) TimerEvent: {}
+[8.759810] (-) TimerEvent: {}
+[8.860456] (-) TimerEvent: {}
+[8.961130] (-) TimerEvent: {}
+[9.061806] (-) TimerEvent: {}
+[9.162463] (-) TimerEvent: {}
+[9.263144] (-) TimerEvent: {}
+[9.363809] (-) TimerEvent: {}
+[9.464424] (-) TimerEvent: {}
+[9.565133] (-) TimerEvent: {}
+[9.665781] (-) TimerEvent: {}
+[9.766420] (-) TimerEvent: {}
+[9.867058] (-) TimerEvent: {}
+[9.967694] (-) TimerEvent: {}
+[10.068356] (-) TimerEvent: {}
+[10.169022] (-) TimerEvent: {}
+[10.269659] (-) TimerEvent: {}
+[10.370321] (-) TimerEvent: {}
+[10.471012] (-) TimerEvent: {}
+[10.571707] (-) TimerEvent: {}
+[10.672348] (-) TimerEvent: {}
+[10.773005] (-) TimerEvent: {}
+[10.873643] (-) TimerEvent: {}
+[10.974310] (-) TimerEvent: {}
+[11.074984] (-) TimerEvent: {}
+[11.175651] (-) TimerEvent: {}
+[11.276312] (-) TimerEvent: {}
+[11.376997] (-) TimerEvent: {}
+[11.477695] (-) TimerEvent: {}
+[11.578384] (-) TimerEvent: {}
+[11.679072] (-) TimerEvent: {}
+[11.779762] (-) TimerEvent: {}
+[11.880439] (-) TimerEvent: {}
+[11.981160] (-) TimerEvent: {}
+[12.081847] (-) TimerEvent: {}
+[12.182533] (-) TimerEvent: {}
+[12.283244] (-) TimerEvent: {}
+[12.354013] (urg_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_2d_to_3d\x1b[0m\n'}
+[12.383418] (-) TimerEvent: {}
+[12.484152] (-) TimerEvent: {}
+[12.584936] (-) TimerEvent: {}
+[12.685844] (-) TimerEvent: {}
+[12.786571] (-) TimerEvent: {}
+[12.887319] (-) TimerEvent: {}
+[12.946539] (urg_node) StdoutLine: {'line': b'[100%] Built target pointcloud_2d_to_3d\n'}
+[12.971571] (urg_node) CommandEnded: {'returncode': 0}
+[12.973466] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'install'}
+[12.987576] (-) TimerEvent: {}
+[12.996527] (urg_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autodrive/laser_ws/build/urg_node'], 'cwd': '/home/autodrive/laser_ws/build/urg_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('SSH_CLIENT', '192.168.1.101 8361 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/autodrive'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f9290408-5502-4c65-82e2-61a5f599e79e.sock'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/.noConfigDebugAdapterEndpoints/endpoint-99365620f40cf858.txt'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0b00f2a0e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/autodrive/laser_ws/build/urg_node'), ('SSH_CONNECTION', '192.168.1.101 8361 192.168.1.103 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.017726] (urg_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.018531] (urg_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.019367] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/urg_node_driver\n'}
+[13.020118] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/pointcloud_2d_to_3d\n'}
+[13.020864] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/liburg_node.so\n'}
+[13.021284] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/getID\n'}
+[13.022199] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/include/urg_node/urg_c_wrapper.hpp\n'}
+[13.022505] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/include/urg_node/urg_node.hpp\n'}
+[13.022990] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/set_urg_ip.py\n'}
+[13.023883] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf\n'}
+[13.024195] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_lidar.launch\n'}
+[13.024487] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml\n'}
+[13.024846] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_launch.py\n'}
+[13.025143] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_serial.yaml\n'}
+[13.025766] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/meshes/hokuyo_ust10.stl\n'}
+[13.026335] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/urdf/hokuyo_ust10.urdf.xacro\n'}
+[13.026864] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/library_path.sh\n'}
+[13.027340] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/library_path.dsv\n'}
+[13.027834] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node\n'}
+[13.028335] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node\n'}
+[13.028826] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.sh\n'}
+[13.029289] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv\n'}
+[13.029767] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/path.sh\n'}
+[13.030220] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/path.dsv\n'}
+[13.030690] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.bash\n'}
+[13.031361] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.sh\n'}
+[13.031620] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.zsh\n'}
+[13.032035] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.dsv\n'}
+[13.032392] (urg_node) StdoutLine: {'line': b'-- Symlinking: /home/autodrive/laser_ws/install/urg_node/share/urg_node/package.dsv\n'}
+[13.051240] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/packages/urg_node\n'}
+[13.051852] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node\n'}
+[13.052124] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.052507] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.053000] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.053435] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake\n'}
+[13.053731] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake\n'}
+[13.054178] (urg_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/package.xml\n'}
+[13.058067] (urg_node) CommandEnded: {'returncode': 0}
+[13.087706] (-) TimerEvent: {}
+[13.111925] (urg_node) JobEnded: {'identifier': 'urg_node', 'rc': 0}
+[13.114141] (-) EventReactorShutdown: {}

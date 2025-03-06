@@ -1,0 +1,35 @@
+[0.031s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.155s] [ 22%] Built target urg_node_driver
+[0.160s] [ 55%] Built target urg_node
+[0.184s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.221s] [ 77%] Built target getID
+[0.241s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[3.173s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[3.174s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:159:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.174s]   159 |         float angle = scan_msg[01;31m[K->[m[Kangle_min;
+[3.174s]       |                               [01;31m[K^~[m[K
+[3.174s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:160:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.174s]   160 |         for (size_t i = 0; i < scan_msg[01;31m[K->[m[Kranges.size(); ++i)
+[3.175s]       |                                        [01;31m[K^~[m[K
+[3.175s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:162:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.175s]   162 |             if (scan_msg[01;31m[K->[m[Kranges[i] < scan_msg->range_min || scan_msg->ranges[i] > scan_msg->range_max)
+[3.175s]       |                         [01;31m[K^~[m[K
+[3.175s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:162:47:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.175s]   162 |             if (scan_msg->ranges[i] < scan_msg[01;31m[K->[m[Krange_min || scan_msg->ranges[i] > scan_msg->range_max)
+[3.175s]       |                                               [01;31m[K^~[m[K
+[3.176s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:162:70:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.176s]   162 |             if (scan_msg->ranges[i] < scan_msg->range_min || scan_msg[01;31m[K->[m[Kranges[i] > scan_msg->range_max)
+[3.176s]       |                                                                      [01;31m[K^~[m[K
+[3.176s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:162:92:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.176s]   162 |             if (scan_msg->ranges[i] < scan_msg->range_min || scan_msg->ranges[i] > scan_msg[01;31m[K->[m[Krange_max)
+[3.176s]       |                                                                                            [01;31m[K^~[m[K
+[3.176s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:168:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.177s]   168 |             float r = scan_msg[01;31m[K->[m[Kranges[i];
+[3.177s]       |                               [01;31m[K^~[m[K
+[3.183s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:186:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[3.184s]   186 |             angle += scan_msg[01;31m[K->[m[Kangle_increment;
+[3.184s]       |                              [01;31m[K^~[m[K
+[6.927s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[6.928s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[6.928s] make: *** [Makefile:141: all] Error 2
+[6.934s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

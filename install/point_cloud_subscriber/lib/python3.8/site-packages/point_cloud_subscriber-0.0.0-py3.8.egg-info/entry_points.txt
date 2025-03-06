@@ -1,0 +1,3 @@
+[console_scripts]
+point_cloud_subscriber = point_cloud_subscriber.point_cloud_subscriber:main
+

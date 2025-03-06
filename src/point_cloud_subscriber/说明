@@ -1,0 +1,6 @@
+sensor_msgs 和 sensor_msgs_py 包安装
+sudo apt-get install ros-<your_ros2_distro>-sensor-msgs
+sudo apt-get install ros-<your_ros2_distro>-sensor-msgs-py
+
+
+ros2 run point_cloud_subscriber point_cloud_subscriber

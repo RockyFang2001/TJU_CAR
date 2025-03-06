@@ -1,0 +1,14 @@
+[0.025s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.151s] [ 22%] Built target urg_node_driver
+[0.153s] [ 55%] Built target urg_node
+[0.177s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.214s] [ 77%] Built target getID
+[0.234s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[3.204s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.204s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprojector_[m[K’ was not declared in this scope
+[3.205s]    27 |         [01;31m[Kprojector_[m[K->projectLaser(*scan_msg, cloud_msg);
+[3.205s]       |         [01;31m[K^~~~~~~~~~[m[K
+[7.052s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[7.053s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[7.053s] make: *** [Makefile:141: all] Error 2
+[7.059s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

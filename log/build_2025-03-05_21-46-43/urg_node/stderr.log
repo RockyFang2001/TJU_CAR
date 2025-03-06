@@ -1,0 +1,14 @@
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In lambda function:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:81:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kget_publisher[m[K’; did you mean ‘[01m[Kcreate_publisher[m[K’?
+   81 |             node->[01;31m[Kget_publisher[m[K<sensor_msgs::msg::PointCloud2>("cloud").publish(*cloud_msg);
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                   [32m[Kcreate_publisher[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:81:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   81 |             node->get_publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K("cloud").publish(*cloud_msg);
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:81:73:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpublish[m[K’ in ‘[01m[K("cloud")[m[K’, which is of non-class type ‘[01m[Kconst char [6][m[K’
+   81 |             node->get_publisher<sensor_msgs::msg::PointCloud2>("cloud").[01;31m[Kpublish[m[K(*cloud_msg);
+      |                                                                         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

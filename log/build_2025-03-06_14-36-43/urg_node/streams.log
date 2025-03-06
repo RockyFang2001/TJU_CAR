@@ -1,0 +1,80 @@
+[0.506s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.633s] [ 22%] Built target urg_node_driver
+[0.638s] [ 55%] Built target urg_node
+[0.661s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.698s] [ 77%] Built target getID
+[0.716s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[3.851s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&)[m[K’:
+[3.851s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:112:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::left[m[K’?
+[3.851s]   112 |         [01;31m[Kleft[m[K.push_back({x, y, ang});
+[3.852s]       |         [01;31m[K^~~~[m[K
+[3.852s]       |         [32m[Kstd::left[m[K
+[3.852s] In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+[3.852s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[3.852s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[3.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[3.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.853s]                  from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:1[m[K:
+[3.853s] [01m[K/usr/include/c++/9/bits/ios_base.h:1011:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::left[m[K’ declared here
+[3.853s]  1011 |   [01;36m[Kleft[m[K(ios_base& __base)
+[3.853s]       |   [01;36m[K^~~~[m[K
+[3.854s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:117:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+[3.854s]   117 |         [01;31m[Kright[m[K.push_back({x, y, ang});
+[3.854s]       |         [01;31m[K^~~~~[m[K
+[3.854s]       |         [32m[Kstd::right[m[K
+[3.854s] In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+[3.855s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[3.855s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[3.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[3.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.855s]                  from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:1[m[K:
+[3.855s] [01m[K/usr/include/c++/9/bits/ios_base.h:1019:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+[3.856s]  1019 |   [01;36m[Kright[m[K(ios_base& __base)
+[3.856s]       |   [01;36m[K^~~~~[m[K
+[3.856s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:96:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.856s]    96 |           float [01;35m[Kz[m[K = 0.0;  // 假设激光雷达在水平平面上
+[3.856s]       |                 [01;35m[K^[m[K
+[3.856s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:120:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::left[m[K’?
+[3.856s]   120 | std::sort([01;31m[Kleft[m[K.begin(), left.end(), [](const lininfo &a, const lininfo &b)
+[3.857s]       |           [01;31m[K^~~~[m[K
+[3.857s]       |           [32m[Kstd::left[m[K
+[3.857s] In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+[3.857s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[3.857s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[3.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[3.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.858s]                  from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:1[m[K:
+[3.858s] [01m[K/usr/include/c++/9/bits/ios_base.h:1011:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::left[m[K’ declared here
+[3.858s]  1011 |   [01;36m[Kleft[m[K(ios_base& __base)
+[3.858s]       |   [01;36m[K^~~~[m[K
+[3.858s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:124:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+[3.858s]   124 | std::sort([01;31m[Kright[m[K.begin(), right.end(), [](const lininfo &a, const lininfo &b)
+[3.859s]       |           [01;31m[K^~~~~[m[K
+[3.859s]       |           [32m[Kstd::right[m[K
+[3.859s] In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+[3.859s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[3.859s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[3.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[3.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.860s]                  from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:1[m[K:
+[3.860s] [01m[K/usr/include/c++/9/bits/ios_base.h:1019:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+[3.860s]  1019 |   [01;36m[Kright[m[K(ios_base& __base)
+[3.860s]       |   [01;36m[K^~~~~[m[K
+[3.870s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:72:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.870s]    72 |       float [01;35m[Kangle_max[m[K = scan_msg.angle_max;
+[3.870s]       |             [01;35m[K^~~~~~~~~[m[K
+[3.871s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:76:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpoint_index[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.871s]    76 |       size_t [01;35m[Kpoint_index[m[K = 0;
+[3.871s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[7.489s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[7.489s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[7.490s] make: *** [Makefile:141: all] Error 2
+[7.496s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

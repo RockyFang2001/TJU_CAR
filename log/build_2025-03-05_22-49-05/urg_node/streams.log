@@ -1,0 +1,43 @@
+[0.030s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.086s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.130s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.517s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.292s] -- Found laser_proc: 1.0.2 (/opt/ros/foxy/share/laser_proc/cmake)
+[1.524s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.623s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.639s] -- Found urg_c: 1.0.4001 (/opt/ros/foxy/share/urg_c/cmake)
+[1.642s] -- Found urg_node_msgs: 1.0.1 (/opt/ros/foxy/share/urg_node_msgs/cmake)
+[1.709s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.740s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.885s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive/laser_ws/src/urg_node-ros2-devel/include>
+[1.886s] -- Configured cppcheck exclude dirs and/or files: 
+[1.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.887s] -- Configured cpplint exclude dirs and/or files: 
+[1.888s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.889s] -- Added test 'lint_cmake' to check CMake code style
+[1.889s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.892s] -- Added test 'uncrustify' to check C / C++ code style
+[1.892s] -- Configured uncrustify additional arguments: 
+[1.893s] -- Added test 'xmllint' to check XML markup files
+[1.903s] -- Configuring done
+[1.975s] -- Generating done
+[2.001s] -- Build files have been written to: /home/autodrive/laser_ws/build/urg_node
+[2.103s] [ 22%] Built target urg_node_driver
+[2.107s] [ 55%] Built target urg_node
+[2.162s] [ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[2.171s] [ 88%] Built target getID
+[2.355s] In file included from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:5[m[K:
+[2.355s] [01m[K/opt/ros/foxy/include/laser_geometry/laser_geometry.hpp:39:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+[2.356s]    39 | #include [01;31m[K<Eigen/Core>[m[K  // NOLINT (cpplint cannot handle include order here)
+[2.356s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[2.356s] compilation terminated.
+[2.360s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[2.361s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[2.361s] make: *** [Makefile:141: all] Error 2
+[2.367s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

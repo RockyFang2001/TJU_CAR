@@ -1,0 +1,24 @@
+[0.196s] Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+[2.199s] [100%] Built target imu_driver_exe
+[2.245s] Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+[2.312s] Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim
+[2.361s] -- Install configuration: ""
+[2.363s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/lib/gnss_imu_sim/imu_driver_exe
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/launch
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/launch/imu_driver_launch.py
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/package_run_dependencies/gnss_imu_sim
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/parent_prefix_path/gnss_imu_sim
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/ament_prefix_path.sh
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/ament_prefix_path.dsv
+[2.364s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/path.sh
+[2.365s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/path.dsv
+[2.365s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.bash
+[2.365s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.sh
+[2.365s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.zsh
+[2.365s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.dsv
+[2.365s] -- Installing: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.dsv
+[2.365s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/packages/gnss_imu_sim
+[2.370s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/cmake/gnss_imu_simConfig.cmake
+[2.378s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/cmake/gnss_imu_simConfig-version.cmake
+[2.379s] -- Up-to-date: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.xml
+[2.449s] Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim

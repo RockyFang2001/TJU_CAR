@@ -1,0 +1,20 @@
+[ 22%] Built target urg_node_driver
+[ 55%] Built target urg_node
+[35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[ 77%] Built target getID
+[ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:[m[K In member function ‘[01m[Kvoid PointCloudNode::laserScanToPointCloud2(const LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:77:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetprecision[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   77 |           range_str << std::fixed << std::[01;31m[Ksetprecision[m[K(4) << scan_msg.ranges[i];
+      |                                           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:79:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_ostringstream<char>[m[K’} to ‘[01m[Kfloat[m[K’ in initialization
+   79 |           float range = [01;31m[Krange_str[m[K;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::ostringstream {aka std::__cxx11::basic_ostringstream<char>}[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:69:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   69 |       float [01;35m[Kangle_max[m[K = scan_msg.angle_max;
+      |             [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

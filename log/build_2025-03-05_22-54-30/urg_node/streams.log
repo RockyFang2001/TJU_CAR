@@ -1,0 +1,16 @@
+[0.025s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.153s] [ 22%] Built target urg_node_driver
+[0.156s] [ 55%] Built target urg_node
+[0.182s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.220s] [ 77%] Built target getID
+[0.239s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[3.084s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:38:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser_geometry[m[K’ was not declared in this scope
+[3.085s]    38 |     std::shared_ptr<[01;31m[Klaser_geometry[m[K::LaserProjection> projector_;
+[3.085s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.085s] [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:38:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.085s]    38 |     std::shared_ptr<laser_geometry::LaserProjection[01;31m[K>[m[K projector_;
+[3.085s]       |                                                    [01;31m[K^[m[K
+[6.797s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[6.798s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[6.798s] make: *** [Makefile:141: all] Error 2
+[6.805s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

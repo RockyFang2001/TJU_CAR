@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "urg_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "getID::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getID-5fffefb2e7d18dec3bcc.json",
+					"name" : "getID",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_2d_to_3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_2d_to_3d-c0c4f8e71b3bb31170ff.json",
+					"name" : "pointcloud_2d_to_3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-be63fa3465d636558832.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node-72883f41d874e23de618.json",
+					"name" : "urg_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node_driver-081e570e36d206cf67f0.json",
+					"name" : "urg_node_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node_uninstall-eb0589a7f0035966639a.json",
+					"name" : "urg_node_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/autodrive/laser_ws/build/urg_node",
+		"source" : "/home/autodrive/laser_ws/src/urg_node-ros2-devel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

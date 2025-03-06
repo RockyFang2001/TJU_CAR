@@ -1,0 +1,47 @@
+[0.025s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/autodrive/laser_ws/src/urg_node-ros2-devel -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/urg_node
+[0.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.491s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.002s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.004s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.270s] -- Found laser_proc: 1.0.2 (/opt/ros/foxy/share/laser_proc/cmake)
+[1.502s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.601s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.618s] -- Found urg_c: 1.0.4001 (/opt/ros/foxy/share/urg_c/cmake)
+[1.621s] -- Found urg_node_msgs: 1.0.1 (/opt/ros/foxy/share/urg_node_msgs/cmake)
+[1.685s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.713s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.859s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive/laser_ws/src/urg_node-ros2-devel/include>
+[1.860s] -- Configured cppcheck exclude dirs and/or files: 
+[1.862s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.865s] -- Configured cpplint exclude dirs and/or files: 
+[1.866s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.866s] -- Added test 'lint_cmake' to check CMake code style
+[1.867s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.867s] -- Added test 'uncrustify' to check C / C++ code style
+[1.868s] -- Configured uncrustify additional arguments: 
+[1.868s] -- Added test 'xmllint' to check XML markup files
+[1.879s] -- Configuring done
+[1.951s] -- Generating done
+[1.977s] -- Build files have been written to: /home/autodrive/laser_ws/build/urg_node
+[2.000s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/autodrive/laser_ws/src/urg_node-ros2-devel -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/urg_node
+[2.007s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[2.129s] [ 22%] Built target urg_node_driver
+[2.130s] [ 55%] Built target urg_node
+[2.155s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[2.193s] [ 77%] Built target getID
+[2.219s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[2.411s] In file included from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:5[m[K:
+[2.412s] [01m[K/opt/ros/foxy/include/laser_geometry/laser_geometry.hpp:39:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+[2.412s]    39 | #include [01;31m[K<Eigen/Core>[m[K  // NOLINT (cpplint cannot handle include order here)
+[2.412s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[2.412s] compilation terminated.
+[2.417s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[2.418s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[2.418s] make: *** [Makefile:141: all] Error 2
+[2.424s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

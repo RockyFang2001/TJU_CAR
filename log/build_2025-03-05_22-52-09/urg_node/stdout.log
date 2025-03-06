@@ -1,0 +1,17 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found laser_proc: 1.0.2 (/opt/ros/foxy/share/laser_proc/cmake)
+-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found urg_c: 1.0.4001 (/opt/ros/foxy/share/urg_c/cmake)
+-- Found urg_node_msgs: 1.0.1 (/opt/ros/foxy/share/urg_node_msgs/cmake)
+-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/autodrive/laser_ws/build/urg_node/CMakeFiles/CMakeOutput.log".
+See also "/home/autodrive/laser_ws/build/urg_node/CMakeFiles/CMakeError.log".

@@ -1,0 +1,15 @@
+[0.033s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[0.153s] [ 22%] Built target urg_node_driver
+[0.155s] [ 55%] Built target urg_node
+[0.179s] [35m[1mScanning dependencies of target pointcloud_2d_to_3d[0m
+[0.217s] [ 77%] Built target getID
+[0.249s] [ 88%] [32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o[0m
+[0.435s] In file included from [01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:5[m[K:
+[0.436s] [01m[K/opt/ros/foxy/include/laser_geometry/laser_geometry.hpp:39:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+[0.436s]    39 | #include [01;31m[K<Eigen/Core>[m[K  // NOLINT (cpplint cannot handle include order here)
+[0.436s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.436s] compilation terminated.
+[0.439s] make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+[0.440s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+[0.440s] make: *** [Makefile:141: all] Error 2
+[0.447s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6

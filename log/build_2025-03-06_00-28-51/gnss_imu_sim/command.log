@@ -1,0 +1,2 @@
+Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim
+Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '1': /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim

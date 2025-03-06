@@ -1,0 +1,9 @@
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:38:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser_geometry[m[K’ was not declared in this scope
+   38 |     std::shared_ptr<[01;31m[Klaser_geometry[m[K::LaserProjection> projector_;
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:38:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     std::shared_ptr<laser_geometry::LaserProjection[01;31m[K>[m[K projector_;
+      |                                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,38 @@
+[0.036s] Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim
+[0.071s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.506s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.573s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.894s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.150s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.231s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.359s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.519s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.521s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.521s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive/laser_ws/src/imu/include>
+[1.522s] -- Configured cppcheck exclude dirs and/or files: 
+[1.522s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.523s] -- Configured cpplint exclude dirs and/or files: 
+[1.524s] -- Added test 'lint_cmake' to check CMake code style
+[1.525s] -- Added test 'uncrustify' to check C / C++ code style
+[1.525s] -- Configured uncrustify additional arguments: 
+[1.526s] -- Added test 'xmllint' to check XML markup files
+[1.533s] -- Configuring done
+[1.535s] CMake Error at CMakeLists.txt:19 (add_executable):
+[1.536s]   Cannot find source file:
+[1.536s] 
+[1.536s]     src/imu.cpp
+[1.536s] 
+[1.536s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.536s]   .hpp .hxx .in .txx
+[1.536s] 
+[1.537s] 
+[1.537s] CMake Error at CMakeLists.txt:19 (add_executable):
+[1.537s]   No SOURCES given to target: imu_driver_exe
+[1.537s] 
+[1.537s] 
+[1.538s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.557s] Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim

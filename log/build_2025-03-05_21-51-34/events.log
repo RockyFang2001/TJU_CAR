@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000558] (urg_node) JobQueued: {'identifier': 'urg_node', 'dependencies': OrderedDict()}
+[0.001462] (urg_node) JobStarted: {'identifier': 'urg_node'}
+[0.021291] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'cmake'}
+[0.022798] (urg_node) JobProgress: {'identifier': 'urg_node', 'progress': 'build'}
+[0.024132] (urg_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive/laser_ws/build/urg_node', '--', '-j6', '-l6'], 'cwd': '/home/autodrive/laser_ws/build/urg_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN'), ('USER', 'autodrive'), ('SSH_CLIENT', '192.168.1.101 8361 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/autodrive'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f9290408-5502-4c65-82e2-61a5f599e79e.sock'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/.noConfigDebugAdapterEndpoints/endpoint-99365620f40cf858.txt'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'autodrive'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/autodrive/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/autodrive/.vscode-server/extensions/ms-python.debugpy-2025.0.1/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0b00f2a0e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/autodrive/laser_ws/build/urg_node'), ('SSH_CONNECTION', '192.168.1.101 8361 192.168.1.103 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099390] (-) TimerEvent: {}
+[0.153767] (urg_node) StdoutLine: {'line': b'[ 22%] Built target urg_node_driver\n'}
+[0.155467] (urg_node) StdoutLine: {'line': b'[ 55%] Built target urg_node\n'}
+[0.180579] (urg_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_2d_to_3d\x1b[0m\n'}
+[0.199530] (-) TimerEvent: {}
+[0.223291] (urg_node) StdoutLine: {'line': b'[ 77%] Built target getID\n'}
+[0.237605] (urg_node) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o\x1b[0m\n'}
+[0.299739] (-) TimerEvent: {}
+[0.400506] (-) TimerEvent: {}
+[0.501304] (-) TimerEvent: {}
+[0.602010] (-) TimerEvent: {}
+[0.702752] (-) TimerEvent: {}
+[0.803624] (-) TimerEvent: {}
+[0.904360] (-) TimerEvent: {}
+[1.005085] (-) TimerEvent: {}
+[1.105842] (-) TimerEvent: {}
+[1.206677] (-) TimerEvent: {}
+[1.307402] (-) TimerEvent: {}
+[1.408211] (-) TimerEvent: {}
+[1.508928] (-) TimerEvent: {}
+[1.609640] (-) TimerEvent: {}
+[1.710364] (-) TimerEvent: {}
+[1.811088] (-) TimerEvent: {}
+[1.911821] (-) TimerEvent: {}
+[2.012567] (-) TimerEvent: {}
+[2.113283] (-) TimerEvent: {}
+[2.213995] (-) TimerEvent: {}
+[2.314717] (-) TimerEvent: {}
+[2.415461] (-) TimerEvent: {}
+[2.516183] (-) TimerEvent: {}
+[2.616875] (-) TimerEvent: {}
+[2.717561] (-) TimerEvent: {}
+[2.818431] (-) TimerEvent: {}
+[2.919187] (-) TimerEvent: {}
+[3.020114] (-) TimerEvent: {}
+[3.100650] (urg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.101499] (urg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:82:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 was not captured for this lambda function\n'}
+[3.101859] (urg_node) StderrLine: {'line': b'   82 |             auto publisher = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->create_publisher<sensor_msgs::msg::PointCloud2>("cloud", 10);\n'}
+[3.102169] (urg_node) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.102462] (urg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:82:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.102744] (urg_node) StderrLine: {'line': b'   82 |             auto publisher = this->create_publisher<sensor_msgs::msg::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K("cloud", 10);\n'}
+[3.103011] (urg_node) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.103269] (urg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive/laser_ws/src/urg_node-ros2-devel/src/pointcloud_2d_to_3d.cpp:82:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[3.103609] (urg_node) StderrLine: {'line': b'   82 |             auto publisher = this->create_publisher<sensor_msgs::msg::PointCloud2>(\x1b[01;35m\x1b[K"cloud"\x1b[m\x1b[K, 10);\n'}
+[3.103897] (urg_node) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.120227] (-) TimerEvent: {}
+[3.220909] (-) TimerEvent: {}
+[3.321769] (-) TimerEvent: {}
+[3.422613] (-) TimerEvent: {}
+[3.523506] (-) TimerEvent: {}
+[3.624326] (-) TimerEvent: {}
+[3.725049] (-) TimerEvent: {}
+[3.825897] (-) TimerEvent: {}
+[3.926768] (-) TimerEvent: {}
+[4.027622] (-) TimerEvent: {}
+[4.128431] (-) TimerEvent: {}
+[4.229301] (-) TimerEvent: {}
+[4.330165] (-) TimerEvent: {}
+[4.431001] (-) TimerEvent: {}
+[4.531840] (-) TimerEvent: {}
+[4.632577] (-) TimerEvent: {}
+[4.733268] (-) TimerEvent: {}
+[4.834258] (-) TimerEvent: {}
+[4.935047] (-) TimerEvent: {}
+[5.035976] (-) TimerEvent: {}
+[5.136694] (-) TimerEvent: {}
+[5.237420] (-) TimerEvent: {}
+[5.338132] (-) TimerEvent: {}
+[5.438869] (-) TimerEvent: {}
+[5.539612] (-) TimerEvent: {}
+[5.640308] (-) TimerEvent: {}
+[5.741013] (-) TimerEvent: {}
+[5.841723] (-) TimerEvent: {}
+[5.942473] (-) TimerEvent: {}
+[6.043176] (-) TimerEvent: {}
+[6.143874] (-) TimerEvent: {}
+[6.244633] (-) TimerEvent: {}
+[6.345483] (-) TimerEvent: {}
+[6.446317] (-) TimerEvent: {}
+[6.547186] (-) TimerEvent: {}
+[6.619691] (urg_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pointcloud_2d_to_3d.dir/build.make:63: CMakeFiles/pointcloud_2d_to_3d.dir/src/pointcloud_2d_to_3d.cpp.o] Error 1\n'}
+[6.620558] (urg_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pointcloud_2d_to_3d.dir/all] Error 2\n'}
+[6.621029] (urg_node) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.626336] (urg_node) CommandEnded: {'returncode': 2}
+[6.647356] (-) TimerEvent: {}
+[6.666939] (urg_node) JobEnded: {'identifier': 'urg_node', 'rc': 2}
+[6.678190] (-) EventReactorShutdown: {}
