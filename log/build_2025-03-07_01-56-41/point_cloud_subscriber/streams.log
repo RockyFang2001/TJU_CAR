@@ -1,0 +1,20 @@
+[2.182s] Invoking command in '/home/autodrive/laser_ws/build/point_cloud_subscriber': PYTHONPATH=/home/autodrive/laser_ws/build/point_cloud_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autodrive/laser_ws/build/point_cloud_subscriber/build --no-deps symlink_data --force
+[2.722s] running develop
+[3.087s] running egg_info
+[3.088s] writing point_cloud_subscriber.egg-info/PKG-INFO
+[3.089s] writing dependency_links to point_cloud_subscriber.egg-info/dependency_links.txt
+[3.090s] writing entry points to point_cloud_subscriber.egg-info/entry_points.txt
+[3.090s] writing requirements to point_cloud_subscriber.egg-info/requires.txt
+[3.090s] writing top-level names to point_cloud_subscriber.egg-info/top_level.txt
+[3.154s] reading manifest file 'point_cloud_subscriber.egg-info/SOURCES.txt'
+[3.155s] writing manifest file 'point_cloud_subscriber.egg-info/SOURCES.txt'
+[3.238s] running build_ext
+[3.238s] Creating /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/site.py
+[3.238s] Creating /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/point-cloud-subscriber.egg-link (link to .)
+[3.239s] Installing point_cloud_subscriber script to /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/point_cloud_subscriber
+[3.240s] 
+[3.240s] Installed /home/autodrive/laser_ws/build/point_cloud_subscriber
+[3.240s] running symlink_data
+[3.240s] symbolically linking /home/autodrive/laser_ws/build/point_cloud_subscriber/resource/point_cloud_subscriber -> /home/autodrive/laser_ws/install/point_cloud_subscriber/share/ament_index/resource_index/packages
+[3.244s] symbolically linking /home/autodrive/laser_ws/build/point_cloud_subscriber/package.xml -> /home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber
+[3.347s] Invoked command in '/home/autodrive/laser_ws/build/point_cloud_subscriber' returned '0': PYTHONPATH=/home/autodrive/laser_ws/build/point_cloud_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autodrive/laser_ws/build/point_cloud_subscriber/build --no-deps symlink_data --force

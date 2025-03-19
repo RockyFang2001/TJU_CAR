@@ -3,7 +3,7 @@
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
 #include <cmath>
-
+#include <chrono>
 // ros2 run urg_node pointcloud_2d_to_3d  启动节点
 class PointCloudNode : public rclcpp::Node
 {
@@ -30,6 +30,7 @@ private:
 
   void laserScanToPointCloud2(const sensor_msgs::msg::LaserScan& scan_msg)
   {
+    auto start = std::chrono::high_resolution_clock::now();
       sensor_msgs::msg::PointCloud2 cloud_msg;
       // 设置PointCloud2消息的头部信息
       cloud_msg.header = scan_msg.header;
@@ -75,7 +76,7 @@ private:
           // if (std::isnan(range))
           {
               // 跳过无效范围或NaN值
-              printf("000000000000000\n");
+            //   printf("000000000000000\n");
               continue;
           }
           float angle = angle_min + i * angle_increment;
@@ -84,7 +85,7 @@ private:
           float x = range * cos(angle);
           float y = range * sin(angle);
           float z = 0.0;  // 假设激光雷达在水平平面上
-          printf("%f,%f\n",x,y);
+        //   printf("%f,%f\n",x,y);
 
           if(x<=0) continue;
 
@@ -96,6 +97,16 @@ private:
 
           point_index++;
       }
+      // 发布PointCloud2消息
+      auto end = std::chrono::high_resolution_clock::now();
+      auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+      
+      // 输出执行时间（可根据需要选择单位）
+      std::cout << "time: " 
+                << duration.count() << " us" 
+                << " (" << duration.count()/1000.0 << " ms)" 
+                << std::endl;
+      
       // 发布PointCloud2消息
       cloud_pub_->publish(cloud_msg);
   }

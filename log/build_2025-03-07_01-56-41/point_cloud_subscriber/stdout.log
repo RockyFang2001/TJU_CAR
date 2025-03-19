@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing point_cloud_subscriber.egg-info/PKG-INFO
+writing dependency_links to point_cloud_subscriber.egg-info/dependency_links.txt
+writing entry points to point_cloud_subscriber.egg-info/entry_points.txt
+writing requirements to point_cloud_subscriber.egg-info/requires.txt
+writing top-level names to point_cloud_subscriber.egg-info/top_level.txt
+reading manifest file 'point_cloud_subscriber.egg-info/SOURCES.txt'
+writing manifest file 'point_cloud_subscriber.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/site.py
+Creating /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/point-cloud-subscriber.egg-link (link to .)
+Installing point_cloud_subscriber script to /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/point_cloud_subscriber
+
+Installed /home/autodrive/laser_ws/build/point_cloud_subscriber
+running symlink_data
+symbolically linking /home/autodrive/laser_ws/build/point_cloud_subscriber/resource/point_cloud_subscriber -> /home/autodrive/laser_ws/install/point_cloud_subscriber/share/ament_index/resource_index/packages
+symbolically linking /home/autodrive/laser_ws/build/point_cloud_subscriber/package.xml -> /home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber

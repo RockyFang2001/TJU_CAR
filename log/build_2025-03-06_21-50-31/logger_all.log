@@ -1,0 +1,312 @@
+[0.659s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.660s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8d61e0a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8d61e0a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8d62e460>)
+[1.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.674s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/autodrive/laser_ws'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ignore', 'ignore_ament_install']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore_ament_install'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_pkg']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_pkg'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_meta']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_meta'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ros']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ros'
+[1.765s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu' with type 'ros.ament_cmake' and name 'gnss_imu_sim'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extensions ['ignore', 'ignore_ament_install']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extension 'ignore'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extension 'ignore_ament_install'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extensions ['colcon_pkg']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extension 'colcon_pkg'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extensions ['colcon_meta']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extension 'colcon_meta'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extensions ['ros']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_serial) by extension 'ros'
+[1.769s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_serial' with type 'ros.ament_python' and name 'keyboard_serial'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extension 'colcon_meta'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extensions ['ros']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_subscriber) by extension 'ros'
+[1.772s] DEBUG:colcon.colcon_core.package_identification:Package 'src/point_cloud_subscriber' with type 'ros.ament_python' and name 'point_cloud_subscriber'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extensions ['ignore', 'ignore_ament_install']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extension 'ignore'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extension 'ignore_ament_install'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extensions ['colcon_pkg']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extension 'colcon_pkg'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extensions ['colcon_meta']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extension 'colcon_meta'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node-ros2-devel) by extension 'ros'
+[1.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node-ros2-devel' with type 'ros.ament_cmake' and name 'urg_node'
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.870s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[1.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.068s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'cmake_args' from command line to 'None'
+[2.069s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'cmake_target' from command line to 'None'
+[2.069s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.069s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.070s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'cmake_clean_first' from command line to 'False'
+[2.070s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'cmake_force_configure' from command line to 'False'
+[2.070s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'ament_cmake_args' from command line to 'None'
+[2.070s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.070s] Level 5:colcon.colcon_core.verb:set package 'gnss_imu_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.071s] DEBUG:colcon.colcon_core.verb:Building package 'gnss_imu_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive/laser_ws/build/gnss_imu_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive/laser_ws/install/gnss_imu_sim', 'merge_install': False, 'path': '/home/autodrive/laser_ws/src/imu', 'symlink_install': False, 'test_result_base': None}
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'cmake_args' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'cmake_target' from command line to 'None'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'cmake_clean_first' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'cmake_force_configure' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'ament_cmake_args' from command line to 'None'
+[2.074s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.074s] Level 5:colcon.colcon_core.verb:set package 'keyboard_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.074s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive/laser_ws/build/keyboard_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive/laser_ws/install/keyboard_serial', 'merge_install': False, 'path': '/home/autodrive/laser_ws/src/keyboard_serial', 'symlink_install': False, 'test_result_base': None}
+[2.075s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'cmake_args' from command line to 'None'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'cmake_target' from command line to 'None'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[2.076s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[2.077s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[2.077s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[2.077s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.077s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive/laser_ws/build/point_cloud_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive/laser_ws/install/point_cloud_subscriber', 'merge_install': False, 'path': '/home/autodrive/laser_ws/src/point_cloud_subscriber', 'symlink_install': False, 'test_result_base': None}
+[2.079s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[2.079s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[2.079s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.079s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.079s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.080s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.081s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive/laser_ws/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive/laser_ws/install/urg_node', 'merge_install': False, 'path': '/home/autodrive/laser_ws/src/urg_node-ros2-devel', 'symlink_install': False, 'test_result_base': None}
+[2.081s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.108s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autodrive/laser_ws/src/imu' with build type 'ament_cmake'
+[2.109s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autodrive/laser_ws/src/imu'
+[2.114s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/autodrive/laser_ws/src/keyboard_serial' with build type 'ament_python'
+[2.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_serial', 'ament_prefix_path')
+[2.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/hook/ament_prefix_path.ps1'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/hook/ament_prefix_path.dsv'
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/hook/ament_prefix_path.sh'
+[2.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.202s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/autodrive/laser_ws/src/point_cloud_subscriber' with build type 'ament_python'
+[2.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_subscriber', 'ament_prefix_path')
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/hook/ament_prefix_path.ps1'
+[2.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/hook/ament_prefix_path.dsv'
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/hook/ament_prefix_path.sh'
+[2.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autodrive/laser_ws/src/urg_node-ros2-devel' with build type 'ament_cmake'
+[2.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autodrive/laser_ws/src/urg_node-ros2-devel'
+[2.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+[3.493s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/autodrive/laser_ws/src/keyboard_serial'
+[3.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.530s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/autodrive/laser_ws/src/point_cloud_subscriber'
+[4.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[4.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim
+[4.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gnss_imu_sim)
+[4.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim
+[4.840s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim' for CMake module files
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim' for CMake config files
+[4.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('gnss_imu_sim', 'cmake_prefix_path')
+[4.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/hook/cmake_prefix_path.ps1'
+[4.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/hook/cmake_prefix_path.dsv'
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/hook/cmake_prefix_path.sh'
+[4.864s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/lib'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/bin'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/lib/pkgconfig/gnss_imu_sim.pc'
+[4.869s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/lib/python3.8/site-packages'
+[4.870s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/bin'
+[4.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.ps1'
+[4.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.dsv'
+[4.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.sh'
+[4.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.bash'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.zsh'
+[4.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive/laser_ws/install/gnss_imu_sim/share/colcon-core/packages/gnss_imu_sim)
+[4.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gnss_imu_sim)
+[4.912s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim' for CMake module files
+[4.913s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim' for CMake config files
+[4.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('gnss_imu_sim', 'cmake_prefix_path')
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/hook/cmake_prefix_path.ps1'
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/hook/cmake_prefix_path.dsv'
+[4.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/hook/cmake_prefix_path.sh'
+[4.935s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/lib'
+[4.935s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/bin'
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/lib/pkgconfig/gnss_imu_sim.pc'
+[4.938s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/lib/python3.8/site-packages'
+[4.938s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/gnss_imu_sim/bin'
+[4.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.ps1'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.dsv'
+[4.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.sh'
+[4.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.bash'
+[4.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.zsh'
+[4.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive/laser_ws/install/gnss_imu_sim/share/colcon-core/packages/gnss_imu_sim)
+[5.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[5.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autodrive/laser_ws/build/urg_node
+[5.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[5.802s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node' for CMake module files
+[5.803s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node' for CMake config files
+[5.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[5.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[5.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autodrive/laser_ws/build/urg_node
+[5.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[5.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[5.811s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/lib'
+[5.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[5.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[5.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[5.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[5.814s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/bin'
+[5.815s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[5.815s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/lib/python3.8/site-packages'
+[5.816s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/bin'
+[5.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.ps1'
+[5.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.dsv'
+[5.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.sh'
+[5.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.bash'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.zsh'
+[5.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive/laser_ws/install/urg_node/share/colcon-core/packages/urg_node)
+[5.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node' for CMake module files
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node' for CMake config files
+[5.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[5.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[5.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/lib'
+[5.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[5.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[5.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[5.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/bin'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/lib/python3.8/site-packages'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/urg_node/bin'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.ps1'
+[5.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.dsv'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.sh'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.bash'
+[5.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/urg_node/share/urg_node/package.zsh'
+[5.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive/laser_ws/install/urg_node/share/colcon-core/packages/urg_node)
+[6.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive/laser_ws/src/keyboard_serial': PYTHONPATH=/home/autodrive/laser_ws/build/keyboard_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_serial build --build-base /home/autodrive/laser_ws/build/keyboard_serial/build install --record /home/autodrive/laser_ws/build/keyboard_serial/install.log --install-scripts $base/lib/keyboard_serial --single-version-externally-managed install_data
+[7.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive/laser_ws/src/point_cloud_subscriber': PYTHONPATH=/home/autodrive/laser_ws/build/point_cloud_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_cloud_subscriber build --build-base /home/autodrive/laser_ws/build/point_cloud_subscriber/build install --record /home/autodrive/laser_ws/build/point_cloud_subscriber/install.log --single-version-externally-managed install_data
+[8.223s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial' for CMake module files
+[8.225s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial' for CMake config files
+[8.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive/laser_ws/src/keyboard_serial' returned '0': PYTHONPATH=/home/autodrive/laser_ws/build/keyboard_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_serial build --build-base /home/autodrive/laser_ws/build/keyboard_serial/build install --record /home/autodrive/laser_ws/build/keyboard_serial/install.log --install-scripts $base/lib/keyboard_serial --single-version-externally-managed install_data
+[8.228s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial/lib'
+[8.228s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial/bin'
+[8.229s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial/lib/pkgconfig/keyboard_serial.pc'
+[8.230s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages'
+[8.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_serial', 'pythonpath')
+[8.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/hook/pythonpath.ps1'
+[8.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/hook/pythonpath.dsv'
+[8.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/hook/pythonpath.sh'
+[8.246s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/keyboard_serial/bin'
+[8.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_serial)
+[8.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/package.ps1'
+[8.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/package.dsv'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/package.sh'
+[8.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/package.bash'
+[8.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial/package.zsh'
+[8.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive/laser_ws/install/keyboard_serial/share/colcon-core/packages/keyboard_serial)
+[8.675s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber' for CMake module files
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber' for CMake config files
+[8.677s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber/lib'
+[8.677s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber/bin'
+[8.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive/laser_ws/src/point_cloud_subscriber' returned '0': PYTHONPATH=/home/autodrive/laser_ws/build/point_cloud_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_cloud_subscriber build --build-base /home/autodrive/laser_ws/build/point_cloud_subscriber/build install --record /home/autodrive/laser_ws/build/point_cloud_subscriber/install.log --single-version-externally-managed install_data
+[8.680s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/pkgconfig/point_cloud_subscriber.pc'
+[8.680s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages'
+[8.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_subscriber', 'pythonpath')
+[8.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/hook/pythonpath.ps1'
+[8.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/hook/pythonpath.dsv'
+[8.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/hook/pythonpath.sh'
+[8.692s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive/laser_ws/install/point_cloud_subscriber/bin'
+[8.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_subscriber)
+[8.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/package.ps1'
+[8.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/package.dsv'
+[8.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/package.sh'
+[8.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/package.bash'
+[8.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive/laser_ws/install/point_cloud_subscriber/share/point_cloud_subscriber/package.zsh'
+[8.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive/laser_ws/install/point_cloud_subscriber/share/colcon-core/packages/point_cloud_subscriber)
+[8.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.727s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.729s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.770s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.858s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive/laser_ws/install/local_setup.ps1'
+[8.862s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autodrive/laser_ws/install/_local_setup_util_ps1.py'
+[8.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive/laser_ws/install/setup.ps1'
+[8.882s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive/laser_ws/install/local_setup.sh'
+[8.885s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autodrive/laser_ws/install/_local_setup_util_sh.py'
+[8.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive/laser_ws/install/setup.sh'
+[8.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive/laser_ws/install/local_setup.bash'
+[8.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive/laser_ws/install/setup.bash'
+[8.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive/laser_ws/install/local_setup.zsh'
+[8.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive/laser_ws/install/setup.zsh'

@@ -1,0 +1,77 @@
+[1.166s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake /home/autodrive/laser_ws/src/urg_node-ros2-devel -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/urg_node
+[1.196s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.241s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.709s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.736s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.789s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.266s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.539s] -- Found laser_proc: 1.0.2 (/opt/ros/foxy/share/laser_proc/cmake)
+[2.768s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.874s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.894s] -- Found urg_c: 1.0.4001 (/opt/ros/foxy/share/urg_c/cmake)
+[2.898s] -- Found urg_node_msgs: 1.0.1 (/opt/ros/foxy/share/urg_node_msgs/cmake)
+[2.966s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[2.996s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.139s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.139s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive/laser_ws/src/urg_node-ros2-devel/include>
+[3.140s] -- Configured cppcheck exclude dirs and/or files: 
+[3.142s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.142s] -- Configured cpplint exclude dirs and/or files: 
+[3.143s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.144s] -- Added test 'lint_cmake' to check CMake code style
+[3.145s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.147s] -- Added test 'uncrustify' to check C / C++ code style
+[3.147s] -- Configured uncrustify additional arguments: 
+[3.148s] -- Added test 'xmllint' to check XML markup files
+[3.161s] -- Configuring done
+[3.251s] -- Generating done
+[3.277s] -- Build files have been written to: /home/autodrive/laser_ws/build/urg_node
+[3.298s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake /home/autodrive/laser_ws/src/urg_node-ros2-devel -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/urg_node
+[3.304s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[3.431s] [ 22%] Built target urg_node_driver
+[3.438s] [ 55%] Built target urg_node
+[3.500s] [100%] Built target pointcloud_2d_to_3d
+[3.501s] [100%] Built target getID
+[3.525s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --build /home/autodrive/laser_ws/build/urg_node -- -j6 -l6
+[3.531s] Invoking command in '/home/autodrive/laser_ws/build/urg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --install /home/autodrive/laser_ws/build/urg_node
+[3.550s] -- Install configuration: ""
+[3.551s] -- Execute custom install script
+[3.552s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/urg_node_driver
+[3.553s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/pointcloud_2d_to_3d
+[3.553s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/liburg_node.so
+[3.554s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/getID
+[3.555s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/include/urg_node/urg_c_wrapper.hpp
+[3.556s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/include/urg_node/urg_node.hpp
+[3.557s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/lib/urg_node/set_urg_ip.py
+[3.558s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf
+[3.559s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_lidar.launch
+[3.559s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml
+[3.560s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_launch.py
+[3.560s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/launch/urg_node_serial.yaml
+[3.561s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/meshes/hokuyo_ust10.stl
+[3.562s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/urdf/hokuyo_ust10.urdf.xacro
+[3.563s] -- Symlinking: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/library_path.sh
+[3.584s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/library_path.dsv
+[3.585s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node
+[3.585s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node
+[3.586s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.sh
+[3.586s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv
+[3.587s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/path.sh
+[3.587s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/environment/path.dsv
+[3.588s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.bash
+[3.589s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.sh
+[3.589s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.zsh
+[3.590s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/local_setup.dsv
+[3.590s] -- Symlinking: /home/autodrive/laser_ws/install/urg_node/share/urg_node/package.dsv
+[3.611s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/packages/urg_node
+[3.612s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node
+[3.612s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.613s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.614s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake
+[3.615s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake
+[3.615s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake
+[3.616s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/urg_node/share/urg_node/package.xml
+[3.622s] Invoked command in '/home/autodrive/laser_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --install /home/autodrive/laser_ws/build/urg_node

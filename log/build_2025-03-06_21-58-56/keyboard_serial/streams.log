@@ -1,0 +1,21 @@
+[2.218s] Invoking command in '/home/autodrive/laser_ws/src/keyboard_serial': PYTHONPATH=/home/autodrive/laser_ws/build/keyboard_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_serial build --build-base /home/autodrive/laser_ws/build/keyboard_serial/build install --record /home/autodrive/laser_ws/build/keyboard_serial/install.log --install-scripts $base/lib/keyboard_serial --single-version-externally-managed install_data
+[2.658s] running egg_info
+[2.659s] writing ../../build/keyboard_serial/keyboard_serial.egg-info/PKG-INFO
+[2.660s] writing dependency_links to ../../build/keyboard_serial/keyboard_serial.egg-info/dependency_links.txt
+[2.660s] writing entry points to ../../build/keyboard_serial/keyboard_serial.egg-info/entry_points.txt
+[2.661s] writing requirements to ../../build/keyboard_serial/keyboard_serial.egg-info/requires.txt
+[2.661s] writing top-level names to ../../build/keyboard_serial/keyboard_serial.egg-info/top_level.txt
+[2.729s] reading manifest file '../../build/keyboard_serial/keyboard_serial.egg-info/SOURCES.txt'
+[2.730s] writing manifest file '../../build/keyboard_serial/keyboard_serial.egg-info/SOURCES.txt'
+[2.731s] running build
+[2.731s] running build_py
+[2.731s] running install
+[2.733s] running install_lib
+[2.735s] running install_data
+[2.736s] running install_egg_info
+[2.739s] removing '/home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial-0.0.0-py3.8.egg-info' (and everything under it)
+[2.740s] Copying ../../build/keyboard_serial/keyboard_serial.egg-info to /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial-0.0.0-py3.8.egg-info
+[2.743s] running install_scripts
+[2.778s] Installing keyboard_serial_node script to /home/autodrive/laser_ws/install/keyboard_serial/lib/keyboard_serial
+[2.779s] writing list of installed files to '/home/autodrive/laser_ws/build/keyboard_serial/install.log'
+[2.841s] Invoked command in '/home/autodrive/laser_ws/src/keyboard_serial' returned '0': PYTHONPATH=/home/autodrive/laser_ws/build/keyboard_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_serial build --build-base /home/autodrive/laser_ws/build/keyboard_serial/build install --record /home/autodrive/laser_ws/build/keyboard_serial/install.log --install-scripts $base/lib/keyboard_serial --single-version-externally-managed install_data

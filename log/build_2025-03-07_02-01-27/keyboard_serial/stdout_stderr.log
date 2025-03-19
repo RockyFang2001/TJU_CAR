@@ -1,0 +1,27 @@
+running develop
+Removing /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard-serial.egg-link (link to .)
+running egg_info
+writing ../../build/keyboard_serial/keyboard_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_serial/keyboard_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/keyboard_serial/keyboard_serial.egg-info/entry_points.txt
+writing requirements to ../../build/keyboard_serial/keyboard_serial.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_serial/keyboard_serial.egg-info/top_level.txt
+reading manifest file '../../build/keyboard_serial/keyboard_serial.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_serial/keyboard_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial
+copying /home/autodrive/laser_ws/build/keyboard_serial/build/lib/keyboard_serial/keyboard_serial_node.py -> /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial
+copying /home/autodrive/laser_ws/build/keyboard_serial/build/lib/keyboard_serial/__init__.py -> /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial
+byte-compiling /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial/keyboard_serial_node.py to keyboard_serial_node.cpython-38.pyc
+byte-compiling /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/keyboard_serial -> /home/autodrive/laser_ws/install/keyboard_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial
+running install_egg_info
+Copying ../../build/keyboard_serial/keyboard_serial.egg-info to /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard_serial-0.0.0-py3.8.egg-info
+running install_scripts
+Installing keyboard_serial_node script to /home/autodrive/laser_ws/install/keyboard_serial/lib/keyboard_serial
+writing list of installed files to '/home/autodrive/laser_ws/build/keyboard_serial/install.log'

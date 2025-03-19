@@ -7,13 +7,13 @@ sleep 1
 # 启动 pointcloud_2d_to_3d
 xterm -title "pointcloud_2d_to_3d" -e "bash -c 'source install/setup.sh; ros2 run urg_node pointcloud_2d_to_3d; exec bash'" &
 
-sleep 1
+# sleep 1
 # 启动 imu
-xterm -title "imu" -e "bash -c 'source install/setup.sh; ros2 launch gnss_imu_sim imu_driver_launch.py; exec bash'" &
+# xterm -title "imu" -e "bash -c 'source install/setup.sh; ros2 launch gnss_imu_sim imu_driver_launch.py; exec bash'" &
 
-sleep 1
+# sleep 1
 # 启动 RViz2
-xterm -title "Starting RViz2..." -e "bash -c 'rviz2; exec bash'" &
+# xterm -title "Starting RViz2..." -e "bash -c 'rviz2; exec bash'" &
 
 # 当前终端启动 keyboard_serial_node
 sleep 1

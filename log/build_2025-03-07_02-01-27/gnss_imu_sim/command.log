@@ -1,0 +1,6 @@
+Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim
+Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim
+Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim
+Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim

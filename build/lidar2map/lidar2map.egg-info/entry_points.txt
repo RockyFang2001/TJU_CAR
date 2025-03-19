@@ -1,0 +1,4 @@
+[console_scripts]
+grid_visualizer = src.grid_visualizer:main
+laser_grid_mapper = src.laser_grid_mapper:main
+

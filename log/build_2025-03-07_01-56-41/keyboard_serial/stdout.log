@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing keyboard_serial.egg-info/PKG-INFO
+writing dependency_links to keyboard_serial.egg-info/dependency_links.txt
+writing entry points to keyboard_serial.egg-info/entry_points.txt
+writing requirements to keyboard_serial.egg-info/requires.txt
+writing top-level names to keyboard_serial.egg-info/top_level.txt
+reading manifest file 'keyboard_serial.egg-info/SOURCES.txt'
+writing manifest file 'keyboard_serial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/site.py
+Creating /home/autodrive/laser_ws/install/keyboard_serial/lib/python3.8/site-packages/keyboard-serial.egg-link (link to .)
+Installing keyboard_serial_node script to /home/autodrive/laser_ws/install/keyboard_serial/lib/keyboard_serial
+
+Installed /home/autodrive/laser_ws/build/keyboard_serial
+running symlink_data
+symbolically linking /home/autodrive/laser_ws/build/keyboard_serial/resource/keyboard_serial -> /home/autodrive/laser_ws/install/keyboard_serial/share/ament_index/resource_index/packages
+symbolically linking /home/autodrive/laser_ws/build/keyboard_serial/package.xml -> /home/autodrive/laser_ws/install/keyboard_serial/share/keyboard_serial

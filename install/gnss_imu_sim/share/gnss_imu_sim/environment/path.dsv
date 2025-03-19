@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/autodrive/laser_ws/build/gnss_imu_sim/ament_cmake_environment_hooks/path.dsv

@@ -1,0 +1,24 @@
+[2.401s] Invoking command in '/home/autodrive/laser_ws/src/point_cloud_subscriber': PYTHONPATH=/home/autodrive/laser_ws/build/point_cloud_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_cloud_subscriber build --build-base /home/autodrive/laser_ws/build/point_cloud_subscriber/build install --record /home/autodrive/laser_ws/build/point_cloud_subscriber/install.log --single-version-externally-managed install_data
+[2.897s] running egg_info
+[2.898s] writing ../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/PKG-INFO
+[2.898s] writing dependency_links to ../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/dependency_links.txt
+[2.899s] writing entry points to ../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/entry_points.txt
+[2.899s] writing requirements to ../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/requires.txt
+[2.900s] writing top-level names to ../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/top_level.txt
+[2.966s] reading manifest file '../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/SOURCES.txt'
+[2.967s] writing manifest file '../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info/SOURCES.txt'
+[2.968s] running build
+[2.968s] running build_py
+[2.968s] copying point_cloud_subscriber/point_cloud_subscriber.py -> /home/autodrive/laser_ws/build/point_cloud_subscriber/build/lib/point_cloud_subscriber
+[2.969s] running install
+[2.971s] running install_lib
+[2.973s] copying /home/autodrive/laser_ws/build/point_cloud_subscriber/build/lib/point_cloud_subscriber/point_cloud_subscriber.py -> /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/point_cloud_subscriber
+[2.975s] byte-compiling /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/point_cloud_subscriber/point_cloud_subscriber.py to point_cloud_subscriber.cpython-38.pyc
+[2.983s] running install_data
+[2.984s] running install_egg_info
+[2.987s] removing '/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/point_cloud_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[2.988s] Copying ../../build/point_cloud_subscriber/point_cloud_subscriber.egg-info to /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages/point_cloud_subscriber-0.0.0-py3.8.egg-info
+[2.990s] running install_scripts
+[3.025s] Installing point_cloud_subscriber script to /home/autodrive/laser_ws/install/point_cloud_subscriber/lib/point_cloud_subscriber
+[3.026s] writing list of installed files to '/home/autodrive/laser_ws/build/point_cloud_subscriber/install.log'
+[3.094s] Invoked command in '/home/autodrive/laser_ws/src/point_cloud_subscriber' returned '0': PYTHONPATH=/home/autodrive/laser_ws/build/point_cloud_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive/laser_ws/install/point_cloud_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_cloud_subscriber build --build-base /home/autodrive/laser_ws/build/point_cloud_subscriber/build install --record /home/autodrive/laser_ws/build/point_cloud_subscriber/install.log --single-version-externally-managed install_data

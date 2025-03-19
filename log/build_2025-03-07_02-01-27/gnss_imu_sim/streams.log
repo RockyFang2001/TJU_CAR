@@ -1,0 +1,53 @@
+[0.072s] Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim
+[1.209s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.211s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.211s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.213s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.409s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.501s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.637s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.794s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.796s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.796s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive/laser_ws/src/imu/include>
+[1.797s] -- Configured cppcheck exclude dirs and/or files: 
+[1.798s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.798s] -- Configured cpplint exclude dirs and/or files: 
+[1.799s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.800s] -- Added test 'lint_cmake' to check CMake code style
+[1.800s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.801s] -- Added test 'uncrustify' to check C / C++ code style
+[1.802s] -- Configured uncrustify additional arguments: 
+[1.802s] -- Added test 'xmllint' to check XML markup files
+[1.810s] -- Configuring done
+[1.833s] -- Generating done
+[1.842s] -- Build files have been written to: /home/autodrive/laser_ws/build/gnss_imu_sim
+[1.864s] Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake /home/autodrive/laser_ws/src/imu -DCMAKE_INSTALL_PREFIX=/home/autodrive/laser_ws/install/gnss_imu_sim
+[1.869s] Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+[2.012s] [100%] Built target imu_driver_exe
+[2.037s] Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --build /home/autodrive/laser_ws/build/gnss_imu_sim -- -j6 -l6
+[2.065s] Invoking command in '/home/autodrive/laser_ws/build/gnss_imu_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim
+[2.083s] -- Install configuration: ""
+[2.084s] -- Execute custom install script
+[2.085s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/lib/gnss_imu_sim/imu_driver_exe
+[2.086s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/launch/imu_driver_launch.py
+[2.086s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/package_run_dependencies/gnss_imu_sim
+[2.087s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/parent_prefix_path/gnss_imu_sim
+[2.088s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/ament_prefix_path.sh
+[2.088s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/ament_prefix_path.dsv
+[2.089s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/path.sh
+[2.089s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/environment/path.dsv
+[2.090s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.bash
+[2.090s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.sh
+[2.091s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.zsh
+[2.092s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/local_setup.dsv
+[2.092s] -- Symlinking: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.dsv
+[2.112s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/ament_index/resource_index/packages/gnss_imu_sim
+[2.112s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/cmake/gnss_imu_simConfig.cmake
+[2.113s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/cmake/gnss_imu_simConfig-version.cmake
+[2.113s] -- Up-to-date symlink: /home/autodrive/laser_ws/install/gnss_imu_sim/share/gnss_imu_sim/package.xml
+[2.118s] Invoked command in '/home/autodrive/laser_ws/build/gnss_imu_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/rolling /usr/bin/cmake --install /home/autodrive/laser_ws/build/gnss_imu_sim
